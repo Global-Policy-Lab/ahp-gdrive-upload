@@ -25,6 +25,7 @@ To upload data to Google Drive, you'll need to set up OAuth authentication. This
    - Navigate to the Google Cloud Console.
    - Ensure you're in a project that **belongs to your user account** with the necessary Google Drive space. i.e. if using a personal account, create a new project and call it google_drive_upload, or something similar.
    - Click on "Create credentials" and select the "OAuth client ID" option.
+   - If you are setting this up for the first time, it will prompt you to "configure your consent screen". Here select external user type, then... (complete this later)
 
 2. **Configure OAuth Client:**
    - Select the application type as "Desktop App" and give it a meaningful name, e.g., `Upload-Google_Drive`.

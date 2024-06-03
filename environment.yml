@@ -1,0 +1,11 @@
+name: gdrive
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pyyaml
+  - oauth2client
+  - google-api-python-client
+  - google-auth-oauthlib
+

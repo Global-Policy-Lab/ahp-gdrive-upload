@@ -1,3 +1,6 @@
 
 
-oath_key_path: "config/oauth_key.json"
+service_account_cred_path: None     # fill in here if you want to use service account (not recommended due to much smaller quota)
+
+personal_account_cred_path: "config/personal_key.json"
+personal_account_token_path: "config/token.pickle"
